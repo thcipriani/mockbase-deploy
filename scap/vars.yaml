@@ -1,0 +1,6 @@
+---
+foo: baz
+allowed_domains:
+  http:
+    - one
+    - two

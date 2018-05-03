@@ -1,0 +1,9 @@
+checks:
+  mockbase_responds:
+    type: nrpe
+    stage: restart
+    command: check_endpoints_mockbase
+  touch_tmp:
+    type: script
+    stage: promote
+    command: doit.sh
